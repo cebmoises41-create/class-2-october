@@ -21,225 +21,122 @@
     box-shadow: 0 8px 30px rgba(0,0,0,0.08);
     padding: 30px 40px;
   }
-  h1 {
-    text-align: center;
-    color: #2b6cb0;
-    font-size: 1.8rem;
-    margin-bottom: 8px;
-  }
-  .subtitle {
-    text-align: center;
-    color: #718096;
-    font-size: 1rem;
-    margin-bottom: 25px;
-  }
-  /* Pantalla de acceso */
+  h1 { text-align: center; color: #2b6cb0; font-size: 1.8rem; margin-bottom: 8px; }
+  .subtitle { text-align: center; color: #718096; font-size: 1rem; margin-bottom: 25px; }
   #loginScreen { text-align: center; padding: 40px 20px; }
   #loginScreen h2 { color: #2b6cb0; margin-bottom: 15px; }
   #loginScreen p { color: #4a5568; margin-bottom: 20px; }
   #accessInput {
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 12px;
-    width: 220px;
-    padding: 12px;
-    border: 3px solid #cbd5e0;
-    border-radius: 12px;
-    outline: none;
-    transition: border 0.3s;
+    font-size: 2rem; text-align: center; letter-spacing: 12px;
+    width: 220px; padding: 12px; border: 3px solid #cbd5e0;
+    border-radius: 12px; outline: none; transition: border 0.3s;
   }
   #accessInput:focus { border-color: #2b6cb0; }
   #loginBtn {
-    display: block;
-    margin: 20px auto 0;
-    padding: 14px 50px;
-    font-size: 1.1rem;
-    background: #2b6cb0;
-    color: white;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
+    display: block; margin: 20px auto 0; padding: 14px 50px;
+    font-size: 1.1rem; background: #2b6cb0; color: white;
+    border: none; border-radius: 12px; cursor: pointer;
     transition: background 0.3s, transform 0.1s;
   }
   #loginBtn:hover { background: #2c5282; transform: scale(1.02); }
-  #loginError {
-    color: #e53e3e;
-    margin-top: 15px;
-    font-weight: 600;
-    display: none;
-  }
-  /* Aviso Blogger */
+  #loginError { color: #e53e3e; margin-top: 15px; font-weight: 600; display: none; }
   .blogger-notice {
-    background: #fefcbf;
-    border-left: 6px solid #d69e2e;
-    padding: 16px 20px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    color: #744210;
-    font-size: 0.98rem;
+    background: #fefcbf; border-left: 6px solid #d69e2e;
+    padding: 16px 20px; border-radius: 10px; margin-bottom: 25px;
+    color: #744210; font-size: 0.98rem;
   }
   .blogger-notice strong { color: #975a16; }
-  /* Contenido */
   #mainContent { display: none; }
   .section-box {
-    background: #f7fafc;
-    border: 2px solid #e2e8f0;
-    border-radius: 14px;
-    padding: 22px 26px;
-    margin-bottom: 25px;
+    background: #f7fafc; border: 2px solid #e2e8f0;
+    border-radius: 14px; padding: 22px 26px; margin-bottom: 25px;
   }
   .section-box h2 {
-    color: #2b6cb0;
-    font-size: 1.25rem;
-    margin-bottom: 12px;
-    border-bottom: 2px dashed #bee3f8;
-    padding-bottom: 8px;
+    color: #2b6cb0; font-size: 1.25rem; margin-bottom: 12px;
+    border-bottom: 2px dashed #bee3f8; padding-bottom: 8px;
   }
   .explain-block {
-    background: #ebf8ff;
-    border-left: 6px solid #3182ce;
-    padding: 16px 20px;
-    border-radius: 8px;
-    margin: 12px 0;
+    background: #ebf8ff; border-left: 6px solid #3182ce;
+    padding: 16px 20px; border-radius: 8px; margin: 12px 0;
   }
   .explain-block h3 { color: #2c5282; margin-bottom: 8px; font-size: 1.05rem; }
   .explain-block p { margin-bottom: 6px; color: #2d3748; }
   .formula {
-    background: #2d3748;
-    color: #f7fafc;
-    padding: 10px 16px;
-    border-radius: 8px;
-    font-family: 'Courier New', monospace;
-    margin: 10px 0;
-    font-size: 0.95rem;
+    background: #2d3748; color: #f7fafc; padding: 10px 16px;
+    border-radius: 8px; font-family: 'Courier New', monospace;
+    margin: 10px 0; font-size: 0.95rem;
   }
   .example {
-    background: #ffffff;
-    border: 1px solid #bee3f8;
-    border-radius: 8px;
-    padding: 8px 12px;
-    margin: 6px 0;
-    font-style: italic;
-    color: #2c5282;
+    background: #ffffff; border: 1px solid #bee3f8;
+    border-radius: 8px; padding: 8px 12px; margin: 6px 0;
+    font-style: italic; color: #2c5282;
   }
-  /* Tablas */
   table.verb-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 15px 0;
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
+    width: 100%; border-collapse: collapse; margin: 15px 0;
+    background: white; border-radius: 10px; overflow: hidden;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
   table.verb-table th {
-    background: #2b6cb0;
-    color: white;
-    padding: 12px;
-    text-align: left;
-    font-size: 0.95rem;
+    background: #2b6cb0; color: white; padding: 12px;
+    text-align: left; font-size: 0.95rem;
   }
   table.verb-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e2e8f0;
+    padding: 10px 12px; border-bottom: 1px solid #e2e8f0;
     font-size: 0.98rem;
   }
   table.verb-table tr:last-child td { border-bottom: none; }
   table.verb-table input[type="text"] {
-    width: 100%;
-    padding: 8px 10px;
-    border: 2px solid #cbd5e0;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    font-family: inherit;
-    outline: none;
-    transition: border 0.3s;
-    background: #ffffff;
+    width: 100%; padding: 8px 10px; border: 2px solid #cbd5e0;
+    border-radius: 8px; font-size: 0.95rem; font-family: inherit;
+    outline: none; transition: border 0.3s; background: #ffffff;
   }
   table.verb-table input[type="text"]:focus { border-color: #2b6cb0; }
   table.verb-table td.fixed {
-    font-weight: 600;
-    color: #2d3748;
-    background: #edf2f7;
+    font-weight: 600; color: #2d3748; background: #edf2f7;
   }
-  /* Preguntas */
   .question {
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 14px 18px;
-    margin-bottom: 12px;
-    border: 1px solid #e2e8f0;
+    background: #ffffff; border-radius: 10px; padding: 14px 18px;
+    margin-bottom: 12px; border: 1px solid #e2e8f0;
   }
   .question .q-num {
-    font-weight: 700;
-    color: #2b6cb0;
-    margin-right: 6px;
+    font-weight: 700; color: #2b6cb0; margin-right: 6px;
   }
   .question input[type="text"] {
-    border: none;
-    border-bottom: 2px solid #a0aec0;
-    padding: 4px 8px;
-    font-size: 1rem;
-    font-family: inherit;
-    background: transparent;
-    outline: none;
-    min-width: 140px;
+    border: none; border-bottom: 2px solid #a0aec0;
+    padding: 4px 8px; font-size: 1rem; font-family: inherit;
+    background: transparent; outline: none; min-width: 140px;
     transition: border 0.3s;
   }
   .question input[type="text"]:focus { border-bottom-color: #2b6cb0; }
   .radio-group {
-    display: flex;
-    gap: 20px;
-    margin-top: 8px;
-    flex-wrap: wrap;
+    display: flex; gap: 20px; margin-top: 8px; flex-wrap: wrap;
   }
   .radio-group label {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    font-weight: 500;
-    color: #4a5568;
+    display: flex; align-items: center; gap: 6px;
+    cursor: pointer; font-weight: 500; color: #4a5568;
   }
   .radio-group input[type="radio"] {
-    accent-color: #2b6cb0;
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
+    accent-color: #2b6cb0; width: 18px; height: 18px; cursor: pointer;
   }
-  /* Botones */
   .btn {
-    display: inline-block;
-    padding: 12px 35px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.1s;
-    font-weight: 600;
+    display: inline-block; padding: 12px 35px; font-size: 1rem;
+    border: none; border-radius: 10px; cursor: pointer;
+    transition: background 0.3s, transform 0.1s; font-weight: 600;
   }
   .btn-primary { background: #2b6cb0; color: white; }
   .btn-primary:hover { background: #2c5282; transform: scale(1.02); }
   .btn-success { background: #38a169; color: white; }
   .btn-success:hover { background: #2f855a; transform: scale(1.02); }
   .btn-center { text-align: center; margin: 25px 0 10px; }
-  /* Resultados */
   #resultsScreen { display: none; text-align: center; padding: 30px 20px; }
   #resultsScreen h2 { color: #2b6cb0; margin-bottom: 15px; }
   .score-box {
-    background: #ebf8ff;
-    border-radius: 14px;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 550px;
-    text-align: left;
+    background: #ebf8ff; border-radius: 14px; padding: 25px;
+    margin: 20px auto; max-width: 550px; text-align: left;
   }
   .score-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 0;
-    border-bottom: 1px solid #bee3f8;
-    font-size: 1.05rem;
+    display: flex; justify-content: space-between; padding: 8px 0;
+    border-bottom: 1px solid #bee3f8; font-size: 1.05rem;
   }
   .score-item:last-child { border-bottom: none; font-weight: 700; color: #2b6cb0; font-size: 1.15rem; }
   .feedback { margin-top: 15px; font-weight: 600; font-size: 1.1rem; text-align: center; }
@@ -341,17 +238,24 @@
       </table>
     </div>
 
-    <!-- ===== APARTADO 3: COMPLETAR ORACIONES ===== -->
+    <!-- ===== APARTADO 3A: PAST SIMPLE ===== -->
     <div class="section-box">
-      <h2>🔹 APARTADO 3 — Completa las oraciones con el pasado</h2>
-      <p style="margin-bottom:12px; color:#4a5568;">Escribe el <strong>past simple</strong> o el <strong>past participle</strong> del verbo entre paréntesis, según corresponda.</p>
-      <div id="apartado3"></div>
+      <h2>🔹 APARTADO 3A — Completa con PAST SIMPLE</h2>
+      <p style="margin-bottom:12px; color:#4a5568;">Escribe el verbo entre paréntesis en <strong>past simple</strong>.</p>
+      <div id="apartado3A"></div>
+    </div>
+
+    <!-- ===== APARTADO 3B: PRESENT PERFECT ===== -->
+    <div class="section-box">
+      <h2>🔹 APARTADO 3B — Completa con PRESENT PERFECT</h2>
+      <p style="margin-bottom:12px; color:#4a5568;">Escribe el verbo entre paréntesis en <strong>present perfect</strong> (have/has + past participle).</p>
+      <div id="apartado3B"></div>
     </div>
 
     <!-- ===== APARTADO 4: CLASIFICAR ===== -->
     <div class="section-box">
       <h2>🔹 APARTADO 4 — ¿Regular o Irregular?</h2>
-      <p style="margin-bottom:12px; color:#4a5568;">Selecciona si el verbo es <strong>R</strong> (Regular) o <strong>I</strong> (Irregular).</p>
+      <p style="margin-bottom:12px; color:#4a5568;">Selecciona si el verbo es <strong>R</strong> (Regular) o <strong>I</strong> (Irregular). (15 verbos)</p>
       <div id="apartado4"></div>
     </div>
 
@@ -399,9 +303,7 @@ document.getElementById('accessInput').addEventListener('keydown', e => {
 });
 
 /* ============================================================
-   DATOS — APARTADO 1: VERBOS REGULARES
-   Cada fila tiene: {infinitive, past, participle} 
-   Si algún campo es "" significa que el estudiante lo debe completar.
+   DATOS — APARTADO 1: REGULARES
    ============================================================ */
 const REGULARES = [
   { infinitive: "accept", past: "", participle: "" },
@@ -416,7 +318,6 @@ const REGULARES = [
   { infinitive: "", past: "cleaned", participle: "" }
 ];
 
-// Respuestas correctas (para calificar)
 const REGULARES_ANSWERS = [
   { infinitive: "accept", past: "accepted", participle: "accepted" },
   { infinitive: "carry", past: "carried", participle: "carried" },
@@ -431,7 +332,7 @@ const REGULARES_ANSWERS = [
 ];
 
 /* ============================================================
-   DATOS — APARTADO 2: VERBOS IRREGULARES
+   DATOS — APARTADO 2: IRREGULARES
    ============================================================ */
 const IRREGULARES = [
   { infinitive: "be", past: "", participle: "" },
@@ -460,21 +361,35 @@ const IRREGULARES_ANSWERS = [
 ];
 
 /* ============================================================
-   DATOS — APARTADO 3: COMPLETAR ORACIONES
+   APARTADO 3A — PAST SIMPLE (8)
    ============================================================ */
-const APARTADO3 = [
-  { sentence: "I have ______ (eat) sushi many times.", answer: "eaten" },
+const APARTADO3A = [
   { sentence: "She ______ (go) to Paris last year.", answer: "went" },
-  { sentence: "They have ______ (write) three books.", answer: "written" },
   { sentence: "He ______ (take) the bus yesterday.", answer: "took" },
-  { sentence: "We have ______ (be) to Canada twice.", answer: "been" },
   { sentence: "My sister ______ (see) a rainbow last night.", answer: "saw" },
-  { sentence: "I have never ______ (drink) coffee.", answer: "drunk" },
-  { sentence: "She has ______ (give) me a beautiful gift.", answer: "given" }
+  { sentence: "They ______ (write) three books last year.", answer: "wrote" },
+  { sentence: "I ______ (eat) sushi yesterday.", answer: "ate" },
+  { sentence: "We ______ (drink) coffee this morning.", answer: "drank" },
+  { sentence: "She ______ (give) me a gift last week.", answer: "gave" },
+  { sentence: "He ______ (buy) a new car last month.", answer: "bought" }
 ];
 
 /* ============================================================
-   DATOS — APARTADO 4: CLASIFICAR R / I
+   APARTADO 3B — PRESENT PERFECT (8)
+   ============================================================ */
+const APARTADO3B = [
+  { sentence: "I have ______ (eat) sushi many times.", answer: "eaten" },
+  { sentence: "They have ______ (write) three books.", answer: "written" },
+  { sentence: "We have ______ (be) to Canada twice.", answer: "been" },
+  { sentence: "I have never ______ (drink) coffee.", answer: "drunk" },
+  { sentence: "She has ______ (give) me a beautiful gift.", answer: "given" },
+  { sentence: "He has ______ (go) to Paris twice.", answer: "gone" },
+  { sentence: "She has ______ (take) the bus many times.", answer: "taken" },
+  { sentence: "They have ______ (see) that movie already.", answer: "seen" }
+];
+
+/* ============================================================
+   APARTADO 4 — CLASIFICAR (15 verbos)
    ============================================================ */
 const APARTADO4 = [
   { verb: "play", answer: "R" },
@@ -486,7 +401,12 @@ const APARTADO4 = [
   { verb: "clean", answer: "R" },
   { verb: "break", answer: "I" },
   { verb: "watch", answer: "R" },
-  { verb: "give", answer: "I" }
+  { verb: "give", answer: "I" },
+  { verb: "carry", answer: "R" },
+  { verb: "write", answer: "I" },
+  { verb: "enjoy", answer: "R" },
+  { verb: "take", answer: "I" },
+  { verb: "accept", answer: "R" }
 ];
 
 /* ============================================================
@@ -514,12 +434,22 @@ function renderTablaIrregulares() {
   `).join('');
 }
 
-function renderApartado3() {
-  const c = document.getElementById('apartado3');
-  c.innerHTML = APARTADO3.map((q, i) => `
+function renderApartado3A() {
+  const c = document.getElementById('apartado3A');
+  c.innerHTML = APARTADO3A.map((q, i) => `
     <div class="question">
       <span class="q-num">${i + 1}.</span>
-      ${q.sentence.replace('______', `<input type="text" id="a3_${i}" placeholder="escribe el verbo">`)}
+      ${q.sentence.replace('______', `<input type="text" id="a3a_${i}" placeholder="escribe el verbo">`)}
+    </div>
+  `).join('');
+}
+
+function renderApartado3B() {
+  const c = document.getElementById('apartado3B');
+  c.innerHTML = APARTADO3B.map((q, i) => `
+    <div class="question">
+      <span class="q-num">${i + 1}.</span>
+      ${q.sentence.replace('______', `<input type="text" id="a3b_${i}" placeholder="escribe el verbo">`)}
     </div>
   `).join('');
 }
@@ -539,25 +469,23 @@ function renderApartado4() {
 
 renderTablaRegulares();
 renderTablaIrregulares();
-renderApartado3();
+renderApartado3A();
+renderApartado3B();
 renderApartado4();
 
 /* ============================================================
-   NORMALIZAR RESPUESTAS
+   NORMALIZAR
    ============================================================ */
 function normalize(str) {
   return (str || '')
-    .toLowerCase()
-    .trim()
+    .toLowerCase().trim()
     .replace(/[.,!?;:¿¡"']/g, '')
     .replace(/\s+/g, ' ');
 }
 
-/* Acepta variantes como "was/were", "was were", "was, were" */
 function matchesVariant(userVal, correctVal) {
   const u = normalize(userVal);
   if (u === normalize(correctVal)) return true;
-  // Si la respuesta correcta contiene "/", aceptar cualquier variante
   if (correctVal.includes('/')) {
     const variants = correctVal.split('/').map(v => normalize(v));
     return variants.includes(u);
@@ -569,13 +497,12 @@ function matchesVariant(userVal, correctVal) {
    CALIFICAR Y MOSTRAR RESULTADOS
    ============================================================ */
 function showResults() {
-  let scoreReg = 0, scoreIrr = 0, score3 = 0, score4 = 0;
+  let scoreReg = 0, scoreIrr = 0, score3a = 0, score3b = 0, score4 = 0;
   let totalReg = 0, totalIrr = 0;
 
-  // Apartado 1 — Regulares
+  // Apartado 1
   REGULARES_ANSWERS.forEach((ans, i) => {
-    const fields = ['infinitive', 'past', 'participle'];
-    fields.forEach(f => {
+    ['infinitive', 'past', 'participle'].forEach(f => {
       const id = f === 'infinitive' ? `reg_inf_${i}` : (f === 'past' ? `reg_past_${i}` : `reg_part_${i}`);
       const input = document.getElementById(id);
       if (input) {
@@ -585,10 +512,9 @@ function showResults() {
     });
   });
 
-  // Apartado 2 — Irregulares
+  // Apartado 2
   IRREGULARES_ANSWERS.forEach((ans, i) => {
-    const fields = ['infinitive', 'past', 'participle'];
-    fields.forEach(f => {
+    ['infinitive', 'past', 'participle'].forEach(f => {
       const id = f === 'infinitive' ? `irr_inf_${i}` : (f === 'past' ? `irr_past_${i}` : `irr_part_${i}`);
       const input = document.getElementById(id);
       if (input) {
@@ -598,10 +524,16 @@ function showResults() {
     });
   });
 
-  // Apartado 3
-  APARTADO3.forEach((q, i) => {
-    const val = document.getElementById(`a3_${i}`).value;
-    if (matchesVariant(val, q.answer)) score3++;
+  // Apartado 3A
+  APARTADO3A.forEach((q, i) => {
+    const val = document.getElementById(`a3a_${i}`).value;
+    if (matchesVariant(val, q.answer)) score3a++;
+  });
+
+  // Apartado 3B
+  APARTADO3B.forEach((q, i) => {
+    const val = document.getElementById(`a3b_${i}`).value;
+    if (matchesVariant(val, q.answer)) score3b++;
   });
 
   // Apartado 4
@@ -610,8 +542,8 @@ function showResults() {
     if (sel && sel.value === q.answer) score4++;
   });
 
-  const total = scoreReg + scoreIrr + score3 + score4;
-  const max = totalReg + totalIrr + APARTADO3.length + APARTADO4.length;
+  const total = scoreReg + scoreIrr + score3a + score3b + score4;
+  const max = totalReg + totalIrr + APARTADO3A.length + APARTADO3B.length + APARTADO4.length;
   const pct = Math.round((total / max) * 100);
 
   let msg = '';
@@ -623,7 +555,8 @@ function showResults() {
   document.getElementById('scoreBox').innerHTML = `
     <div class="score-item"><span>Apartado 1 (Regulares)</span><span>${scoreReg} / ${totalReg}</span></div>
     <div class="score-item"><span>Apartado 2 (Irregulares)</span><span>${scoreIrr} / ${totalIrr}</span></div>
-    <div class="score-item"><span>Apartado 3 (Completar oraciones)</span><span>${score3} / ${APARTADO3.length}</span></div>
+    <div class="score-item"><span>Apartado 3A (Past Simple)</span><span>${score3a} / ${APARTADO3A.length}</span></div>
+    <div class="score-item"><span>Apartado 3B (Present Perfect)</span><span>${score3b} / ${APARTADO3B.length}</span></div>
     <div class="score-item"><span>Apartado 4 (Clasificar R/I)</span><span>${score4} / ${APARTADO4.length}</span></div>
     <div class="score-item"><span>TOTAL</span><span>${total} / ${max} (${pct}%)</span></div>
     <div class="feedback">${msg}</div>
